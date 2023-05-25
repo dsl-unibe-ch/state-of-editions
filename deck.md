@@ -16,17 +16,17 @@ One System to Publish them all.
 
 ---
 
-    - Wordpress-like experience tailored to the needs of scholars
-    - Functions are extendable via [Modules](https://omeka.org/s/modules) (Plugins)
-    - *extensive API* makes it flexible
-    - emphasis on Linked Open Data and the semantic web
+- Wordpress-like experience tailored to the needs of scholars
+- Functions are extendable via [Modules](https://omeka.org/s/modules) (Plugins)
+- _extensive API_ makes it flexible
+- emphasis on Linked Open Data and the semantic web
 
 ---
 
 ### Linked Open Web and Omeka
 
-    - Provides loads of metadata Schemes (FOF, etc.)
-    - custom ontologies are easily made
+- Provides loads of metadata Schemes (FOF, etc.)
+- custom ontologies are easily made
 
 ---
 
@@ -34,15 +34,17 @@ One System to Publish them all.
 
 ---
 
-    - [Corona-Memory](https://omeka.unibe.ch/s/corona-memory/page/welcome)
-        - First Omeka-S Collection at the DH Bern
-        - Multilingual
-        - custom Layout / Template
+[Corona-Memory](https://omeka.unibe.ch/s/corona-memory/page/welcome)
+
+- First Omeka-S Collection at the DH Bern
+- Multilingual
+- custom Layout / Template
 
 ---
 
-    - [Oral History Archiv](https://www.oral-history-archiv.ch/)
-        - Complete custom frontend which consumes the API
+[Oral History Archiv](https://www.oral-history-archiv.ch/)
+
+- Complete custom frontend which consumes the API
 
 <!--
 ​
