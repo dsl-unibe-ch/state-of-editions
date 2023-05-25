@@ -1,17 +1,49 @@
 # The State of Scholarly Editions (at UoB)
-​
+
 ---
-​
+
 ## Common forms of digital publication in the humanities
-​
-* collections
-* network analysis
-* digital scholarly editions (DSE)
-​
+
+- collections
+- network analysis
+- digital scholarly edition
+
 ---
-​
+
 ## Publishing digital collections with Omeka
-​
+
+One System to Publish them all.
+
+---
+
+    - Wordpress-like experience tailored to the needs of scholars
+    - Functions are extendable via [Modules](https://omeka.org/s/modules) (Plugins)
+    - *extensive API* makes it flexible
+    - emphasis on Linked Open Data and the semantic web
+
+---
+
+### Linked Open Web and Omeka
+
+    - Provides loads of metadata Schemes (FOF, etc.)
+    - custom ontologies are easily made
+
+---
+
+### Examples
+
+---
+
+    - [Corona-Memory](https://omeka.unibe.ch/s/corona-memory/page/welcome)
+        - First Omeka-S Collection at the DH Bern
+        - Multilingual
+        - custom Layout / Template
+
+---
+
+    - [Oral History Archiv](https://www.oral-history-archiv.ch/)
+        - Complete custom frontend which consumes the API
+
 <!--
 ​
 * mention mapping to various metadata schemes, custom ontologies and vocabularies, crowd sourcing, countless modules (https://omeka.org/s/modules ; comparable to WP approach but targeted at scholarly projects)
@@ -19,20 +51,21 @@
 * show some UoB examples
 ​
   -->
-​
+
 ---
-​
+
 ## Compile and publish relational data with Nodegoat
-​
-* UoB instance: https://nodegoat.unibe.ch/
-* custom data model
-* relational modes of analysis with spatial and chronological forms of contextualisation
-* get in touch with [Sebastian Borkowski](mailto:sebastian.borkowski@unibe.ch)
-​
-<!-- very briefly as this is really Sebastian's area of expertise -->
-​
+
+- UoB instance: https://nodegoat.unibe.ch/
+- custom data model
+- relational modes of analysis with spatial and chronological forms of contextualisation
+- get in touch with [Sebastian Borkowski](mailto:sebastian.borkowski@unibe.ch)
+  ​
+  <!-- very briefly as this is really Sebastian's area of expertise -->
+  ​
+
 ---
-​
+
 ## Digital Scholarly Editions (DSE)
-​
+
 <!-- workflows (manual, automated), data models and formats, presentation methods, also mention Geovistory and DaSCH -->
