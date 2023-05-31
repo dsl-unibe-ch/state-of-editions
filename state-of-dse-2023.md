@@ -1,16 +1,22 @@
-# The State of Scholarly Editions (at UoB)
+## The State of Digital Scholarly Editions (at <img alt="UoB" src="https://www.unibe.ch/media/logo_unibern@2x.png" height="100px;"/>)
 
+XI Seminar Spring 2023
+
+May 31ˢᵗ 2023
+
+Peter Dängeli, Sebastian Flick; 
+Data Science Lab (DSL)
 ---
 
 ## Common forms of digital publication in the humanities
 
-- collections
-- network analysis
-- digital scholarly edition
+- ⓵ collections
+- ⓶ network analysis
+- ⓷ digital scholarly edition
 
 ---
 
-## Publishing digital collections with Omeka
+## ⓵ Publishing digital collections with Omeka
 
 One System to Publish them all.
 
@@ -85,7 +91,7 @@ One System to Publish them all.
 
 ---
 
-## Compile and publish relational data with Nodegoat
+## ⓶ Compile and publish relational data with Nodegoat
 
 - custom data model
 - relational modes of analysis with spatial and chronological forms of contextualisation
@@ -97,6 +103,6 @@ One System to Publish them all.
 
 ---
 
-## Digital Scholarly Editions (DSE)
+## ⓷ Digital Scholarly Editions (DSE)
 
 <!-- workflows (manual, automated), data models and formats, presentation methods, also mention Geovistory and DaSCH -->
