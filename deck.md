@@ -26,7 +26,7 @@ One System to Publish them all.
 ### Linked Open Web and Omeka
 
 - Provides loads of metadata Schemes (FOF, etc.)
-- custom ontologies are easily made
+- custom ontologies possible (with a module)
 
 ---
 
@@ -56,16 +56,27 @@ One System to Publish them all.
 
 ---
 
+#### Vanilla Omeka-S
+
+[Sieben Siegel](https://omeka.unibe.ch/s/sieben_siegel/page/Hochstift)
+
+- Project of Students accompanying a course
+
+[Postdigital Displays](https://omeka.unibe.ch/s/Postdigital_Displays/page/einleitung)
+- Project of a PhD Student accompanying her dissertation
+- repository of media used in the dissertation
+
+---
+
 ## Compile and publish relational data with Nodegoat
 
-- UoB instance: https://nodegoat.unibe.ch/
 - custom data model
 - relational modes of analysis with spatial and chronological forms of contextualisation
+- UoB instance: https://nodegoat.unibe.ch/
 - get in touch with [Sebastian Borkowski](mailto:sebastian.borkowski@unibe.ch)
   ​
   <!-- very briefly as this is really Sebastian's area of expertise -->
   ​
-
 ---
 
 ## Digital Scholarly Editions (DSE)
