@@ -41,7 +41,7 @@ jobs:
       - name: Build Step
         run: npm run build
       - name: Copy img-folder
-        run: cp -r ./src/img ./public/
+        run: cp -r ./src/2023/img ./public/2023/img
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
