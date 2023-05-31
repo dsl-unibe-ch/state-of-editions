@@ -25,8 +25,9 @@ One System to Publish them all.
 
 ### Linked Open Web and Omeka
 
-- Provides loads of metadata Schemes (FOF, etc.)
+- Provides widely used metadata Schemes out of the box (FOF, etc.)
 - custom ontologies possible (with a module)
+- ready to be linked with other RDF-Ressources
 
 ---
 
@@ -38,6 +39,7 @@ One System to Publish them all.
 
 - First Omeka-S Collection at the DH Bern
 - Multilingual
+- Crowd sourcing
 - custom Layout / Template
 
 ---
@@ -63,8 +65,19 @@ One System to Publish them all.
 - Project of Students accompanying a course
 
 [Postdigital Displays](https://omeka.unibe.ch/s/Postdigital_Displays/page/einleitung)
+
 - Project of a PhD Student accompanying her dissertation
 - repository of media used in the dissertation
+
+---
+
+### Downsides
+
+- building ontop of outdated technologies
+  - security issues
+  - poor developer experience
+- updating self-hosted installations is painful and costly
+- administrative and user-control tools are missing: no clear separation between sites.
 
 ---
 
@@ -77,6 +90,7 @@ One System to Publish them all.
   ​
   <!-- very briefly as this is really Sebastian's area of expertise -->
   ​
+
 ---
 
 ## Digital Scholarly Editions (DSE)
