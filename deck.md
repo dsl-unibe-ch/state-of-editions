@@ -25,9 +25,12 @@ One System to Publish them all.
 
 ### Linked Open Web and Omeka
 
-- Provides widely used metadata Schemes out of the box (FOF, etc.)
-- custom ontologies possible (with a module)
-- ready to be linked with other RDF-Ressources
+- **R**esource **D**escription **F**ramework allows definition of classes and properties in triplets
+- Using RDF Schemes creates the possibility to connect multiple data repositories
+- Omeka-S provides widely used metadata Schemes out of the box (FOAF, dublin core, ...)
+- custom vocabularies possible
+- API-responses are [JSON-LD-formatted](https://json-ld.org/)
+- JSON-LD is also embedded in the frontend
 
 ---
 
