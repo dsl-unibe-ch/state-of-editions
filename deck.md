@@ -43,13 +43,14 @@ One System to Publish them all.
 - First Omeka-S Collection at the DH Bern
 - Multilingual
 - Crowd sourcing
-- custom Layout / Template
+- Custom Layout / Template
 
 ---
 
 [Oral History Archiv](https://www.oral-history-archiv.ch/)
 
 - Complete custom frontend which consumes the API
+- [github-repo](https://github.com/DHBern/HistFalk-OralHistoryArchive)
 
 <!--
 ​
