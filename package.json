@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "open": "eloc open deck.md --css \"./style.css\"",
+    "open": "eloc open \"./2023/state-of-dse-2023.md\" --css \"./style.css\"",
     "start": "npm run open",
-    "build": "eloc build deck.md --css \"./style.css\""
+    "build": "eloc build \"./2023/state-of-dse-2023.md\" --css \"./2023/style.css\" --include \"./2023/img/*\""
   },
   "repository": {
     "type": "git",

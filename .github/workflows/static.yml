@@ -39,12 +39,12 @@ jobs:
       - name: Install eloc
         run: npm install
       - name: Build Step
-        run: npm exec eloc build deck.md
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './public/'
+          path: "./public/"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
