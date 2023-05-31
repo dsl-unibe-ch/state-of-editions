@@ -532,4 +532,64 @@ Challenges
 * combining manual and machine-assisted workflows
 * implement technically generic systems that allow for a high degree of specialisation to meet requirements of editions
 
+---
 
+<small>
+
+
+```
+                                                                                                                     +------------------+
+                                                                                                                     | generic archival |
+                                                                                                                     | platform (DaSCH) |
+                                                                                                                     +------------------+
+
+
+
+                                                                                                                          +-----------+
+                                                                                                                          |           |
+                                                                                                                          |  API for  |
+                                                                                                                          |  data     |     JSON
+                                                                                                                          |           |     JSON-LD
+                        +- - - - - - - -+                                                                                 |           |     TEI
+                        |               |                  transcription                                                  +----+------+     RDF                    +----------+
+                             manual                        +-----------+             scholarly commentary                      |                                   |          |
+                        |               |                                            +------------------+                      |                                   | frontend |
+                        +- - - - - - - -+                                                                                      +---------------------------->      |          |
+                                                                                                                                                                   |          |
+                                                                                                                                         +------------------>      |          |
+image preparation                                                                                           XXXXXXXXXXXXXXX              |                         +----------+
++---------------+                                                                                           XXXXXXXXXXXXXXX              |
+                                                                                  correction                XX           XX              |
+       +                +- - - - - - - -+                                         +--------+                XX  TEI XML  XX              |
+       |                |               |                                                                   XX           XX              |
+       |                   automated                                                                        XXXXXXXXXXXXXXX              |
+       |                |               |                   layout detection                                XXXXXXXXXXXXXXX       +------+------+
+       |                +- - - - - - - -+                   region definition                                                     |             |
+       |                                         OCR        +---------------+                                                     |   search    |
+       |                                         +-+                                                                              |   engine/   |
+       |                                                                                                                          |   index     |
+       |                                                                                                                          |             |
+       |                                         HTR                                                                              +-------------+
+       |                                         +-+                         entity detection
+       |                                                                     named entity recognition                                                 +-----------+
+       |                                                                     +----------------------+             +----------------+                  |           |
+       |                                                                                                          |                |                  |  IIIF     |
+       |                                                                                                          |  data archive/ |                  |  server   |
+       |                          +              version control (data)                                           |  repository    |                  |           |
+       |                          |                                                                               |                |                  +-----------+
+       |                          +--------------------------------------+-------------------------->             +----------------+
+       |                                                                 |                                                                                 ^
+       |                                                                 |                                                                                 |
+       +---------------------------------------------------------------------------------------------------------------------------------------------------+
+                                                                         |
+                                                                         |
+                                                                         |                 CI / CD
+                                                                         |
+                                                                         +------------------------------------------------>
+
+```
+</small>
+
+<style>
+small {font-size: 1.2rem;}
+</style>
