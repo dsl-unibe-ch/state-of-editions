@@ -1,3 +1,105 @@
+## The State of Digital Scholarly Editions (at <img alt="UoB" src="https://www.unibe.ch/media/logo_unibern@2x.png" height="100px;"/>)
+
+XI Seminar Spring 2023
+
+May 31ˢᵗ 2023
+
+Peter Dängeli, Sebastian Flick; 
+Data Science Lab (DSL)
+---
+
+## Common forms of digital publication in the humanities
+
+- ⓵ collections
+- ⓶ network analysis
+- ⓷ digital scholarly edition
+
+---
+
+## ⓵ Publishing digital collections with Omeka
+
+One System to Publish them all.
+
+---
+
+- Wordpress-like experience tailored to the needs of scholars
+- Functions are extendable via [Modules](https://omeka.org/s/modules) (Plugins)
+- _extensive API_ makes it flexible
+- emphasis on Linked Open Data and the semantic web
+
+---
+
+### Linked Open Web and Omeka
+
+- **R**esource **D**escription **F**ramework allows definition of classes and properties in triplets
+- Using RDF Schemes creates the possibility to connect multiple data repositories
+- Omeka-S provides widely used metadata Schemes out of the box (FOAF, dublin core, ...)
+- custom vocabularies possible
+- API-responses are [JSON-LD-formatted](https://json-ld.org/)
+- JSON-LD is also embedded in the frontend
+
+---
+
+### Examples
+
+---
+
+[Corona-Memory](https://omeka.unibe.ch/s/corona-memory/page/welcome)
+
+- First Omeka-S Collection at the DH Bern
+- Multilingual
+- Crowd sourcing
+- Custom Layout / Template
+
+---
+
+[Oral History Archiv](https://www.oral-history-archiv.ch/)
+
+- Complete custom frontend which consumes the API
+- [github-repo](https://github.com/DHBern/HistFalk-OralHistoryArchive)
+
+<!--
+​
+* mention mapping to various metadata schemes, custom ontologies and vocabularies, crowd sourcing, countless modules (https://omeka.org/s/modules ; comparable to WP approach but targeted at scholarly projects)
+​
+* show some UoB examples
+​
+  -->
+
+---
+
+#### Vanilla Omeka-S
+
+[Sieben Siegel](https://omeka.unibe.ch/s/sieben_siegel/page/Hochstift)
+
+- Project of Students accompanying a course
+
+[Postdigital Displays](https://omeka.unibe.ch/s/Postdigital_Displays/page/einleitung)
+
+- Project of a PhD Student accompanying her dissertation
+- repository of media used in the dissertation
+
+---
+
+### Downsides
+
+- building ontop of outdated technologies
+  - security issues
+  - poor developer experience
+- updating self-hosted installations is painful and costly
+- administrative and user-control tools are missing: no clear separation between sites.
+
+---
+
+## ⓶ Compile and publish relational data with Nodegoat
+
+- custom data model
+- relational modes of analysis with spatial and chronological forms of contextualisation
+- UoB instance: https://nodegoat.unibe.ch/
+- get in touch with [Sebastian Borkowski](mailto:sebastian.borkowski@unibe.ch)
+  ​
+  <!-- very briefly as this is really Sebastian's area of expertise -->
+  ​
 
 ---
 
@@ -108,7 +210,7 @@ DOI: [10.1007/BF02941632](https://doi.org/10.1007/BF02941632) (or access via [Sh
 
 <style>
 .slide {
-  background: url(img/ohco.png) center;
+  background: url(2023/img/ohco.png) center;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -130,7 +232,7 @@ DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
 
 <style>
 .slide {
-  background: url(img/robinson.png) center;
+  background: url(2023/img/robinson.png) center;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -287,7 +389,7 @@ As of revision [f18deffba](https://github.com/TEIC/TEI/commit/f18deffba) (TEI P5
 
 <details><summary>e.g. <code>model.choicePart</code></summary>
 
-[![model.choicePart](img/model-choice-part.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-model.choicePart.html)
+[![model.choicePart](2023/img/model-choice-part.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-model.choicePart.html)
 
 </details>
 
@@ -295,7 +397,7 @@ As of revision [f18deffba](https://github.com/TEIC/TEI/commit/f18deffba) (TEI P5
 
 <details><summary>e.g. <code>att.global.responsibility</code></summary>
 
-[![att.global.responsibilty](img/att-global-responsibility.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.responsibility.html)
+[![att.global.responsibilty](2023/img/att-global-responsibility.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.responsibility.html)
 
 </details>
 
@@ -303,7 +405,7 @@ As of revision [f18deffba](https://github.com/TEIC/TEI/commit/f18deffba) (TEI P5
 
 <details><summary>e.g. <code>choice</code></summary>
 
-[![choice](img/element-choice.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.responsibility.html)
+[![choice](2023/img/element-choice.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.responsibility.html)
 
 <details><summary>e.g. <code>model.choicePart</code></summary>
 
@@ -400,8 +502,6 @@ Beyond XML
 * Multi-version documents (Desmond Schmidt)
 * Text as a Graph (TAG)
 
-<!-- concurrent approaches: MVD, TAG -->
-
 ---
 
 Approaches
@@ -433,8 +533,3 @@ Challenges
 * implement technically generic systems that allow for a high degree of specialisation to meet requirements of editions
 
 
-<!-- Angestrebt wird zudem die Nutzung von Verfahren aus
-dem Data & Knowledge Engineering, dem Text Mining, der Computerphilologie/Computerlinguistik,
-die gemeinhin auf „plain text“ und größere Corpora oder Datenbestände aus dem „Big Data“-Bereich
-aufsetzen, hier aber auch für die besonderen Herausforderungen – etwa komplexe Textrepräsentation
-und medial gestaltete wissenschaftliche Editionen – fruchtbar gemacht werden sollen. -->
