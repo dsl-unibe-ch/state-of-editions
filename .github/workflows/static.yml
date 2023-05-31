@@ -39,7 +39,10 @@ jobs:
       - name: Install eloc
         run: npm install
       - name: Build Step
-        run: npm run build && mkdir ./public/2023/img && cp -r ./2023/img ./public/2023/img
+        run: |
+          npm run build
+          mkdir -p ./public/2023/img
+          cp -r ./2023/img ./public/2023/img
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
