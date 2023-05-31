@@ -9,4 +9,4 @@ be sure to have node and npm installed beforehand.
 - use `npm install` to install the package
 - then use `npm run open` to start the presentation
 
-if you want to use the CLI-options of eloc, use `npm exec eloc`
+if you want to use the CLI-options of eloc, use `npm exec -- eloc`
