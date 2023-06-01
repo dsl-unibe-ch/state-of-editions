@@ -215,7 +215,7 @@ DOI: [10.1007/BF02941632](https://doi.org/10.1007/BF02941632) (or access via [Sh
 
 <style>
 .slide {
-  background: url(https://raw.githubusercontent.com/dsl-unibe-ch/state-of-editions/main/2023/img/ohco.png) center;
+  background: url(2023/img/ohco.png) center;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -239,7 +239,7 @@ DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
 
 <style>
 .slide {
-  background: url(https://raw.githubusercontent.com/dsl-unibe-ch/state-of-editions/main/2023/img/robinson.png) center;
+  background: url(2023/img/robinson.png) center;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -405,7 +405,7 @@ As of revision [f18deffba](https://github.com/TEIC/TEI/commit/f18deffba) (TEI P5
 
 <details><summary>e.g. <code>att.global.responsibility</code></summary>
 
-[![att.global.responsibilty](https://raw.githubusercontent.com/dsl-unibe-ch/state-of-editions/main/2023/img/att-global-responsibility.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.responsibility.html)
+[![att.global.responsibilty](2023/img/att-global-responsibility.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.responsibility.html)
 
 </details>
 
@@ -413,7 +413,7 @@ As of revision [f18deffba](https://github.com/TEIC/TEI/commit/f18deffba) (TEI P5
 
 <details><summary>e.g. <code>choice</code></summary>
 
-[![choice](https://raw.githubusercontent.com/dsl-unibe-ch/state-of-editions/main/2023/img/element-choice.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.responsibility.html)
+[![choice](2023/img/element-choice.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.global.responsibility.html)
 
 <details><summary>e.g. <code>model.choicePart</code></summary>
 
