@@ -202,6 +202,8 @@ Pre-eminent medieval narrative work based on 16 manuscripts and 70 fragments
 
 </div>
 
+---
+
 ## <!-- here: global questions -->
 
 <div class="source">
