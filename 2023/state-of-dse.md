@@ -4,8 +4,9 @@ XI Seminar Spring 2023
 
 May 31ˢᵗ 2023
 
-Peter Dängeli, Sebastian Flick; 
+Peter Dängeli, Sebastian Flick;
 Data Science Lab (DSL)
+
 ---
 
 ## Common forms of digital publication in the humanities
@@ -118,7 +119,9 @@ One System to Publish them all.
 |                            |    |                            |    |                            |
 +----------------------------+    +----------------------------+    +----------------------------+
 ```
+
 ---
+
 <div style="font-size:xx-large;">
 
 ```
@@ -150,6 +153,7 @@ Pre-eminent medieval narrative work based on 16 manuscripts and 70 fragments
 
      Acts of the council of Christian bishops convened in Ephesus in AD 431
 ```
+
 </div>
 
 <!-- here: Bern exmaples -->
@@ -193,19 +197,20 @@ Pre-eminent medieval narrative work based on 16 manuscripts and 70 fragments
          Characteristics of text       Static (as fixated on a document)
                                        Fluid (tradition, genesis)
                                        Continuously malleable (in the digital)
-                                       Manifest at varying granularity                                                                                               
+                                       Manifest at varying granularity
 ```
 
 </div>
 
-<!-- here: global questions -->
----
+## <!-- here: global questions -->
+
 <div class="source">
 <code>
-DeRose, S.J., Durand, D.G., Mylonas, E. et al. What is text, really?. J. Comput. High. Educ. 1, 3–26 (1990). 
+DeRose, S.J., Durand, D.G., Mylonas, E. et al. What is text, really?. J. Comput. High. Educ. 1, 3–26 (1990).
 
 DOI: [10.1007/BF02941632](https://doi.org/10.1007/BF02941632) (or access via [SharedIt](https://rdcu.be/ddhju))
 </code>
+
 </div>
 
 <style>
@@ -215,11 +220,12 @@ DOI: [10.1007/BF02941632](https://doi.org/10.1007/BF02941632) (or access via [Sh
   background-repeat: no-repeat;
 }
 .source { filter: invert();
-          position: absolute;          
+          position: absolute;
           bottom: -10px;
           font-size: x-large; }
           code { opacity: 0.8 }
 </style>
+
 ---
 
 <div class="source">
@@ -228,6 +234,7 @@ Peter Robinson, What text really is not, and why editors have to learn to swim, 
 
 DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
 </code>
+
 </div>
 
 <style>
@@ -237,14 +244,14 @@ DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
   background-repeat: no-repeat;
 }
 .source { filter: invert();
-          position: absolute;          
+          position: absolute;
           bottom: -10px;
           font-size: x-large; }
           code { opacity: 0.8 }
 </style>
 
-
 ---
+
 <div style="font-size:xx-large;">
 
 ```
@@ -281,6 +288,7 @@ DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
                                                             DSE - how to leverage the potential of the digital?
 
 ```
+
 </div>
 <!-- goal: derive text from textual witnesses -->
 
@@ -342,7 +350,7 @@ DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
 
 <!-- goal: describe what is in the source, not the intended rendering of the output -->
 
-<!-- 
+<!--
    * Core delivery: encoding guidelines
    * "Standard" for digital research with and on texts
    * Targets the semantical description of texts, not the implementation of a graphical interface
@@ -385,15 +393,15 @@ DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
 
 As of revision [f18deffba](https://github.com/TEIC/TEI/commit/f18deffba) (TEI P5 Version 4.6.0, 4th April 2023)
 
-* 126 distinctly-named model classes 
+- 126 distinctly-named model classes
 
 <details><summary>e.g. <code>model.choicePart</code></summary>
 
-[![model.choicePart](https://raw.githubusercontent.com/dsl-unibe-ch/state-of-editions/main/2023/img/model-choice-part.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-model.choicePart.html)
+[![model.choicePart](2023/img/model-choice-part.png)](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-model.choicePart.html)
 
 </details>
 
-* 81 distinctly-named attribute classes
+- 81 distinctly-named attribute classes
 
 <details><summary>e.g. <code>att.global.responsibility</code></summary>
 
@@ -401,7 +409,7 @@ As of revision [f18deffba](https://github.com/TEIC/TEI/commit/f18deffba) (TEI P5
 
 </details>
 
-* 585 elements 
+- 585 elements
 
 <details><summary>e.g. <code>choice</code></summary>
 
@@ -421,11 +429,11 @@ History of the TEI
 1987 Begin of a standardisation effort (by ACH / ACL / ALLC)
 │  13.11.1987: TEI PCP1 "CLOSING STATEMENT OF THE VASSAR PLANNING CONFERENCE"
 │
-└── 1990 ❰ P1 ❱  
-  │   07.1990: first public proposal "Guidelines for the Encoding and Interchange 
+└── 1990 ❰ P1 ❱
+  │   07.1990: first public proposal "Guidelines for the Encoding and Interchange
   │            of Machine-Readable Texts" (Ed. M. Sperberg-McQueen, L. Burnard)
   │
-  └── 1992 ❰ P2 ❱  Development (four Working Committees and various WGs)       
+  └── 1992 ❰ P2 ❱  Development (four Working Committees and various WGs)
     │
     └── 1994 and 1999 ❰ P3 ❱ "Guidelines for Electronic Text Encoding and Interchange"
       │                      439 elements, 1292 pages; considered achievement of the goals of 1987
@@ -438,7 +446,6 @@ History of the TEI
           └── 2007 ❰ P5 ❱ reorganisation and revision; no (full) compatibility to P4
                           ongoing development, most recently 04.04.2023: TEI P5 4.6.0
 ```
-
 
 ---
 
@@ -454,8 +461,8 @@ History of the TEI
 ```
 
 Processing model for `choice`
- 
-``` 
+
+```
 <elementSpec ident="choice" mode="change">
  <model predicate="sic and corr"
   behaviour="alternate">
@@ -474,68 +481,68 @@ Processing model for `choice`
   background-repeat: no-repeat;
 }
 </style>
+
 ---
 
-XML: promise of 
+XML: promise of
 
-* suitability for markup / mixed content
-* universality
-* longevity
-* human readability
-* machine processability
-* versatility / transformability
-* quality assurance
-* extensibility / customisability
+- suitability for markup / mixed content
+- universality
+- longevity
+- human readability
+- machine processability
+- versatility / transformability
+- quality assurance
+- extensibility / customisability
 
 ---
 
 But also:
 
-* (over) complexity
-* verbosity
-* stuck in time (depending on the perspective)
+- (over) complexity
+- verbosity
+- stuck in time (depending on the perspective)
 
 ---
 
 Beyond XML
 
-* Multi-version documents (Desmond Schmidt)
-* Text as a Graph (TAG)
+- Multi-version documents (Desmond Schmidt)
+- Text as a Graph (TAG)
 
 ---
 
 Approaches
 
-* (La)TeX
-* in-browser transformation (XSLT 1.0, CSS, SaxonJS)
-* pipeline-based
-  * XML transformation (Apache Cocoon, Kiln, XSLWeb, XProc 3.0, XPath's `fn:transform()` invoking XSLT 3.0 transformations)
-  * continuous integration (coupling version control with auto-building and deployment)
-* native XML databases (eXist-db, BaseX)
-* ODD-based (teiPublisher)
+- (La)TeX
+- in-browser transformation (XSLT 1.0, CSS, SaxonJS)
+- pipeline-based
+  - XML transformation (Apache Cocoon, Kiln, XSLWeb, XProc 3.0, XPath's `fn:transform()` invoking XSLT 3.0 transformations)
+  - continuous integration (coupling version control with auto-building and deployment)
+- native XML databases (eXist-db, BaseX)
+- ODD-based (teiPublisher)
 
 ---
 
 Architectures
 
-* monolithic (often the case for eXist-db)
-* modular, micro-service oriented
-* static components (preservation optimised)
+- monolithic (often the case for eXist-db)
+- modular, micro-service oriented
+- static components (preservation optimised)
 
-<!-- workflows (manual, automated), data models and formats, presentation methods, also mention Geovistory and DaSCH --> 
+<!-- workflows (manual, automated), data models and formats, presentation methods, also mention Geovistory and DaSCH -->
 
 ---
 
 Challenges
 
-* prioritising data over (print-inspired) presentation
-* combining manual and machine-assisted workflows
-* implement technically generic systems that allow for a high degree of specialisation to meet requirements of editions
+- prioritising data over (print-inspired) presentation
+- combining manual and machine-assisted workflows
+- implement technically generic systems that allow for a high degree of specialisation to meet requirements of editions
 
 ---
 
 <small>
-
 
 ```
                                                                                                                      +------------------+
@@ -588,6 +595,7 @@ image preparation                                                               
                                                                          +------------------------------------------------>
 
 ```
+
 </small>
 
 <style>

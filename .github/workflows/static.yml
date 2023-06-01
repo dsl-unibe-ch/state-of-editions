@@ -41,8 +41,10 @@ jobs:
       - name: Build Step
         run: |
           npm run build
+          ls -la
           mkdir -p ./public/2023/img
           cp -r ./2023/img ./public/2023/img
+          ls -la ./public/2023/img
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
