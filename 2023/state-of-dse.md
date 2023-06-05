@@ -218,14 +218,7 @@ DOI: [10.1007/BF02941632](https://doi.org/10.1007/BF02941632) (or access via [Sh
 <style>
 .slide {
   background: url(2023/img/ohco.png) center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.source { filter: invert();
-          position: absolute;
-          bottom: -10px;
-          font-size: x-large; }
-          code { opacity: 0.8 }
+  }
 </style>
 
 ---
@@ -242,14 +235,7 @@ DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
 <style>
 .slide {
   background: url(2023/img/robinson.png) center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.source { filter: invert();
-          position: absolute;
-          bottom: -10px;
-          font-size: x-large; }
-          code { opacity: 0.8 }
+  }
 </style>
 
 ---
@@ -312,30 +298,6 @@ DOI: [10.1093/llc/fqn030](https://doi.org/10.1093/llc/fqn030)
 <span data-tooltip="Text Encoding Initiative">T E I</span>
 
 <!-- methods, methodology; data formats -->
-
-<style>
-[data-tooltip]:hover {
-	position: relative;
-}
-[data-tooltip]:hover::before {
-	all: initial;
-	font-family: Arial, Helvetica, sans-serif;
-	display: inline-block;
-	border-radius: 5px;
-	padding: 10px;
-	background-color: #1a1a1a;
-	content: attr(data-tooltip);
-	color: #f9f9f9;
-	position: absolute;
-	top: 100%;
-	width: 400px;
-	left: 50%;
-	transform: translate(-50%, 0);
-	margin-top: 15px;
-	text-align: center;
-	font-size: xx-large;
-}
-</style>
 
 ---
 
@@ -479,8 +441,6 @@ Processing model for `choice`
 <style>
 .slide {
   background: url(https://raw.githubusercontent.com/DominicWeber/CUSO_UNIL/main/ScholarlyEditions/teipb2.png) center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 </style>
 

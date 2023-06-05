@@ -2,11 +2,18 @@
 
 Presentation for the XI-Seminar of the DSL
 
-# installation and use
+## Installation and usage
 
-be sure to have node and npm installed beforehand.
+Requirements: node and npm
 
 - use `npm install` to install the package
 - then use `npm run open` to start the presentation
 
-if you want to use the CLI-options of eloc, use `npm exec -- eloc`
+If you want to use the CLI-options of eloc, use `npm exec -- eloc`.
+
+
+## Commands
+
+|presentation|command|
+|---|---|
+|[State of DSE 2023](`2023/state-of-dse.md`)|`npm exec -- eloc open 2023/state-of-dse.md --css "2023/style.css"`|
