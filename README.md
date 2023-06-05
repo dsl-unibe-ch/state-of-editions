@@ -16,4 +16,4 @@ If you want to use the CLI-options of eloc, use `npm exec -- eloc`.
 
 |presentation|command|
 |---|---|
-|[State of DSE 2023](`2023/state-of-dse.md`)|`npm exec -- eloc open 2023/state-of-dse.md --css "2023/style.css"`|
+|[State of DSE 2023](2023/state-of-dse.md)|`npm exec -- eloc open 2023/state-of-dse.md --css "2023/style.css"`|
